@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prayer Timings</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div>
+          <label for="towns" style="font-size: 20px;">Choose Location</label>
+          <select name="" id="towns">
+            <option value="cairo">cairo</option>
+            <option value="Alexandria">Alexandria</option>
+            <option value="Giza">Giza</option>
+            <option value="Al Gharbīyah">Al Gharbīyah</option>
+            <option value="Ad Daqahlīyah">Ad Daqahlīyah</option>
+            <option value="Al Qalyūbīyah">Al Qalyūbīyah</option>
+            <option value="Red Sea">Red Sea</option>
+            <option value="Al Buḩayrah">Al Buḩayrah</option>
+            <option value="Al Fayyūm">Al Fayyūm</option>
+            <option value="Al Ismā'īlīyah">Al Ismā'īlīyah</option>
+            <option value="Al Minyā">Al Minyā</option>
+            <option value="Al Minūfīyah">Al Minūfīyah</option>
+            <option value="Luxor">Luxor</option>
+            <option value="Suez">Suez</option>
+            <option value="Ash Sharqīyah">Ash Sharqīyah</option>
+            <option value="Aswān">Aswān</option>
+            <option value="Asyūţ">Asyūţ</option>
+            <option value="Banī Suwayf">Banī Suwayf</option>
+            <option value="Port Said">Port Said</option>
+            <option value="Damietta">Damietta</option>
+            <option value="South Sinai">South Sinai</option>
+            <option value="Kafr ash Shaykh">Kafr ash Shaykh</option>
+            <option value="Maţrūḩ">Maţrūḩ</option>
+            <option value="Qinā">Qinā</option>
+            <option value="North Sinai">North Sinai</option>
+            <option value="Sohag">Sohag</option>
+            <option value="New Valley">New Valley</option>
+          </select>
+        </div>
+        <a class="logo">
+          <img src="./logo.png" alt="" />
+        </a>
+      </header>
+      <main>
+        <div class="content">
+          <div class="holder">
+            <h2>مواقيت الصلاة في cairo</h2>
+
+            <div class="date-time" id="dates-times">
+              <div class="milady"></div>
+              <div class="hijri"></div>
+            </div>
+          </div>
+
+          <div class="parent-card">
+            <div id="prayer-time">
+              <div class="card one">
+                <span style="display: block">الفجر</span>
+                <span style="direction: ltr;" id="fajr"></span>
+              </div>
+              <div class="card two">
+                <span style="display: block">الشرووق</span>
+                <span style="direction: ltr;" id="sunrise"></span>
+              </div>
+              <div class="card three">
+                <span style="display: block">الظهر</span>
+                <span style="direction: ltr;" id="dohr"></span>
+              </div>
+              <div class="card four">
+                <span style="display: block">العصر</span>
+                <span style="direction: ltr;" id="asr"></span>
+              </div>
+              <div class="card five">
+                <span style="display: block">المغرب</span>
+                <span style="direction: ltr;" id="maghrib"></span>
+              </div>
+              <div class="card six">
+                <span style="display: block">العشاء</span>
+                <span style="direction: ltr;" id="isha"></span>
+              </div>
+            </div>
+          </div>
+          <div class="foot">الهيئة المصرية العامة للمساحة</div>
+        </div>
+      </main>
+    </div>
+  </body>
+  <script src="main.js"></script>
+</html>

@@ -1,0 +1,156 @@
+*{
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: cursive;
+}
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+body {
+  background-color: #e5e5e5;
+  color: #000;
+}
+/* Small */
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+/* Medium */
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+/* Large */
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+/* Header */
+.container header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+header a {
+  text-decoration: none;
+    color: #000;
+    cursor: pointer;
+}
+header .logo img {
+  height: 30px;
+  width: 100px;
+}
+.container header select {
+  width: 150px;
+  padding: 5px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 900;
+  font-family: cursive;
+}
+
+/* Main */
+main .content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  direction: rtl;
+  margin-top: 30px;
+    padding-bottom: 10px;
+}
+
+.date-time {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #777;
+  font-size: 14px;
+  direction: ltr;
+}
+.parent-card #prayer-time{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 50px;
+}
+.parent-card #prayer-time .card{
+  flex-basis: 150px;
+  background-color: #f2f2f2;
+  border-radius: 8px;
+  height: 130px;
+  flex-grow: 1;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 900;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.foot {
+  text-align: left;
+  padding: 20px;
+  margin-top: 30px;
+  color: #777;
+  font-size: 13px;
+}
+
+/* ********* */
+.card.one{
+  background-image: url(./fajr.png);
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+  height: 160px !important;
+    margin-top: -15px;
+}
+.card.two{
+  background-image: url(./shrouq.jpg);
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: multiply;
+  color: #fff;
+}
+.card.three{
+  background-image: url(./dhuhr.png);
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+}
+.card.four{
+  background-image: url(./asr2.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: multiply;
+  color: #fff;
+}
+.card.five{
+  background-image: url(./maghrb.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: multiply;
+  color: #fff;
+}
+.card.six{
+  background-image: url(./isha.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: multiply;
+  color: #fff;
+}
