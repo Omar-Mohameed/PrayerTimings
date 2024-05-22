@@ -113,7 +113,7 @@ main .content {
 
 /* ********* */
 .card.one{
-  background-image: url(./fajr.png);
+  background-image: url(/Images/fajr.png);
   background-position: center;
   background-size: cover;
   color: #fff;
@@ -121,34 +121,34 @@ main .content {
     margin-top: -15px;
 }
 .card.two{
-  background-image: url(./shrouq.jpg);
+  background-image: url(/Images/shrouq.jpg);
   background-position: center;
   background-size: cover;
   background-blend-mode: multiply;
   color: #fff;
 }
 .card.three{
-  background-image: url(./dhuhr.png);
+  background-image: url(/Images/dhuhr.png);
   background-position: center;
   background-size: cover;
   color: #fff;
 }
 .card.four{
-  background-image: url(./asr2.jpeg);
+  background-image: url(/Images/asr2.jpeg);
   background-position: center;
   background-size: cover;
   background-blend-mode: multiply;
   color: #fff;
 }
 .card.five{
-  background-image: url(./maghrb.jpeg);
+  background-image: url(/Images/maghrb.jpeg);
   background-position: center;
   background-size: cover;
   background-blend-mode: multiply;
   color: #fff;
 }
 .card.six{
-  background-image: url(./isha.jpeg);
+  background-image: url(/Images/isha.jpeg);
   background-position: center;
   background-size: cover;
   background-blend-mode: multiply;
