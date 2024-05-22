@@ -16,7 +16,7 @@ function getDate(data) {
 
 // fetch api to biring date of prayer
 function getPrayerDate(city) {
-  fetch(`http://api.aladhan.com/v1/timingsByCity?country=EG&city=${city}`)
+  fetch(`https://api.aladhan.com/v1/timingsByCity?country=EG&city=${city}`)
   .then((result) => {
     return result.json();
   })
